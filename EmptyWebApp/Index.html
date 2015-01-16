@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="default.css" rel="stylesheet" />
+    <title></title>
+</head>
+<body>
+    <audio id="shoot" type="audio/wav"></audio>
+    <audio id="boom" typeof="audio/wav"></audio>
+    <div>
+        <span class="danger">Health: </span>
+        <span class="author">Created by Георги Димитров</span>
+        <span id="health" class="danger"></span><br />
+
+        <span class="info">Score: </span>
+        <span id="score" class="info"></span>
+        
+        <span class="lives">Lives: </span>
+        <span id="lives" class="lives"></span>
+    </div>
+
+    <div id="game-over-overlay">
+    </div>
+
+    <div id="game-over">
+        <h1>GAME OVER</h1>
+        <button id="play-again">Play Again</button>
+        <div id="result"></div>
+    </div>
+
+    <div>
+        <h1 id="level"></h1>
+    </div>
+
+    <div>
+        <h1 id="live"></h1>
+    </div>
+
+    <script src="Scripts/jquery-2.1.1.js"></script>
+    <script src="Scripts/resources.js"></script>
+    <script src="Scripts/input.js"></script>
+    <script src="Scripts/sprite.js"></script>
+    <script src="Scripts/app.js"></script>
+
+</body>
+</html>

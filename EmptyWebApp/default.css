@@ -1,0 +1,41 @@
+﻿body {
+    background-image: url('Images/background.jpg');
+}
+
+#game-over, #game-over-overlay, #level #live{
+    margin: auto;
+    width: 512px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+    background-color: #191919;
+    border-radius: 10px;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+
+.danger{
+    color: red;
+    margin-top: 3px;
+}
+
+.info{
+    color: white;
+}
+
+.lives{
+    color:lightgreen;
+}
+
+.author{
+    color: yellow;
+    font-weight: bold;
+    float: right;
+    margin-top: 3px;
+}
